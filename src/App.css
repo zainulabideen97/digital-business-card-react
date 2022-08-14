@@ -1,0 +1,82 @@
+body {
+  margin: 0;
+  background-color: #23252C;
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  color: #FFFFFF;
+  font-family: 'Inter', sans-serif;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  width: 320px;
+  background-color: #1A1B21;
+  border-radius: 8px;
+}
+
+.information {
+  text-align: center;
+  border-radius: 8px 8px 0 0;
+}
+
+.profile-image {
+  background-color: #161619;
+  width: 320px;
+  border-radius: 8px 8px 0 0;
+}
+
+.information--labels,
+.about--labels,
+.interest--labels {
+  padding: 12px 20px 0 20px;
+}
+
+.profile--title {
+  text-align: center;
+  margin: 0;
+  font-weight: 700;
+}
+
+.profile--position {
+  color: #F3BF99;
+  margin: 8px 0 0 0;
+  font-weight: 400;
+}
+
+.profile--website {
+  color: #F5F5F5;
+  margin: 8px 0 0 0;
+  font-weight: 400;
+}
+
+.email--button {
+  margin: 16px 0 0 0;
+  width: 100%;
+  font-weight: 500;
+  height: 36px;
+}
+
+.about--title,
+.interest--title {
+  margin: 0;
+  font-weight: 600;
+}
+
+.about--desc,
+.interest--desc {
+  color: #DCDCDC;
+  margin: 8px 0 0 0;
+  font-size: 12px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 12px;
+  background-color: #161619;
+  padding: 8px 16px;
+  border-radius: 0 0 8px 8px;
+}
